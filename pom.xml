@@ -21,8 +21,7 @@
 		<url>https://github.com/uoa-group-applications/composite-spring-web</url>
 		<connection>scm:git:https://github.com/uoa-group-applications/composite-spring-web.git</connection>
 		<developerConnection>scm:git:git@github.com:uoa-group-applications/composite-spring-web.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 	
 	<dependencies>
 	
