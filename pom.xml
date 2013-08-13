@@ -1,37 +1,40 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 	<parent>
-    <groupId>nz.ac.auckland</groupId>
-    <artifactId>uoa-parent</artifactId>
-    <version>1.8</version>
-  </parent>
-  
-  <groupId>nz.ac.auckland.composite</groupId>
-  <artifactId>composite-spring-web</artifactId>
-  <version>5.2-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  <name>composite-spring-web</name>
-  
-  <description>
-    Collection of the standard spring web dependencies 
-  </description>
-  
-  <dependencies>
-    <dependency>
-      <groupId>nz.ac.auckland.composite</groupId>
-      <artifactId>composite-spring</artifactId>
-      <version>[5,6)</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-      <version>3.2.1.RELEASE</version>
-      <exclusions>
-        <exclusion>
-          <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-  </dependencies>
+		<groupId>nz.ac.auckland</groupId>
+		<artifactId>uoa-parent</artifactId>
+		<version>1.8</version>
+	</parent>
+	
+	<groupId>nz.ac.auckland.composite</groupId>
+	<artifactId>composite-spring-web</artifactId>
+	<version>5.2-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>composite-spring-web</name>
+	
+	<description>
+		Collection of the standard spring web dependencies 
+	</description>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>nz.ac.auckland.composite</groupId>
+			<artifactId>composite-spring</artifactId>
+			<version>[5,6)</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.2.1.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
+	</dependencies>
 </project>
