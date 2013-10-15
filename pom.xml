@@ -9,7 +9,7 @@
 	
 	<groupId>nz.ac.auckland.composite</groupId>
 	<artifactId>composite-spring-web</artifactId>
-	<version>5.3-SNAPSHOT</version>
+	<version>5.3</version>
 	<packaging>jar</packaging>
 	<name>composite-spring-web</name>
 	
@@ -21,7 +21,8 @@
 		<url>https://github.com/uoa-group-applications/composite-spring-web</url>
 		<connection>scm:git:https://github.com/uoa-group-applications/composite-spring-web.git</connection>
 		<developerConnection>scm:git:git@github.com:uoa-group-applications/composite-spring-web.git</developerConnection>
-	</scm>
+	  <tag>composite-spring-web-5.3</tag>
+  </scm>
 	
 	<dependencies>
 	
